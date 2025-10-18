@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['fighter']
+
+roboflow:
+  workspace: test-qdcvy
+  project: my-first-project-mpolf
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/test-qdcvy/my-first-project-mpolf/dataset/1
