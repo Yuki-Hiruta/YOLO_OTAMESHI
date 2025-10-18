@@ -1,10 +1,10 @@
 # dataset root directory
-path: ../yolov5/datasets  # データセットのルートディレクトリ（train/val以下を含む）
+path: ../yolov5/datasets # データセットのルートディレクトリ（train/val以下を含む）
 
 # train/val/test ディレクトリの相対パス
-train: train/images  # train画像のディレクトリ
-val: train/images      # val画像のディレクトリ
-test: test/images    # test画像のディレクトリ（任意）
+train: train/images # train画像のディレクトリ
+val: train/images # val画像のディレクトリ
+test: test/images # test画像のディレクトリ（任意）
 
 # クラス名
 names:
