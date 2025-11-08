@@ -3,9 +3,5 @@ path: ../yolov5/datasets  # データセットのルートディレクトリ（t
 
 # train/val/test ディレクトリの相対パス
 train: train/images  # train画像のディレクトリ
-val: train/images      # val画像のディレクトリ
-test: test/images    # test画像のディレクトリ（任意）
-
-# クラス名
-names:
-  - fighter
+val: val/images      # val画像のディレクトリ
+test: val/images    # test画像のディレクトリ（任意）
