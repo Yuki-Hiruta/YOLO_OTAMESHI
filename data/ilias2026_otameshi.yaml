@@ -2,6 +2,9 @@
 path: ../yolov5/datasets  # データセットのルートディレクトリ（train/val以下を含む）
 
 # train/val/test ディレクトリの相対パス
-train: train/images  # train画像のディレクトリ
-val: val/images      # val画像のディレクトリ
-test: val/images    # test画像のディレクトリ（任意）
+train: ../train/images
+val: ../valid/images
+test: ../valid/images
+
+nc: 14
+names: ['box', 'fake_1', 'fake_2', 'fake_6', 'fake_7', 'true_1', 'true_2', 'true_3', 'true_4', 'true_5', 'true_6', 'true_7', 'true_8', 'true_9']
