@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 1
-names: ['fighter']
+nc: 4
+names: ['fake_blue', 'fake_red', 'real_blue', 'real_red']
 
 roboflow:
   workspace: test-qdcvy
-  project: my-first-project-mpolf
+  project: shusi_neta_detect-tmlig
   version: 1
-  license: MIT
-  url: https://universe.roboflow.com/test-qdcvy/my-first-project-mpolf/dataset/1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-qdcvy/shusi_neta_detect-tmlig/dataset/1

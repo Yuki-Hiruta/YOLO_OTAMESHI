@@ -1,6 +1,6 @@
-# My First Project > test_dataset
-https://universe.roboflow.com/test-qdcvy/my-first-project-mpolf
+# shusi_neta_detect > 2025-11-11 10:28am
+https://universe.roboflow.com/test-qdcvy/shusi_neta_detect-tmlig
 
 Provided by a Roboflow user
-License: MIT
+License: CC BY 4.0
 
