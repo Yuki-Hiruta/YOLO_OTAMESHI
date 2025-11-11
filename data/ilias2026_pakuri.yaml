@@ -1,6 +1,8 @@
+path: ../yolov5/datasets
+
 train: ../train/images
 val: ../valid/images
-test: ../test/images
+test: ../valid/images
 
 nc: 4
 names: ['fake_blue', 'fake_red', 'real_blue', 'real_red']
